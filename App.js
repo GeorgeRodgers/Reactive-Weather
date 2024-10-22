@@ -14,10 +14,7 @@ function App() {
                 {cities.map((city, index) => 
                 <WeatherCard key={index} city={city}/>
                 )}
-
-
-            </div>
-            
+            </div>            
         </>
     )
 }
