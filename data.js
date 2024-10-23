@@ -101,4 +101,7 @@ const cities = [
     }
 ];
 
+// Used to trouble shoot mapping of cities array
+// console.log(cities.map((obj) => obj.city).slice(0, -1).join(`, `)+` and `+cities.at(-1).city)
+
 module.exports = cities;
